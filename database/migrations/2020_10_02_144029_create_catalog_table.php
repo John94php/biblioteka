@@ -18,6 +18,8 @@ class CreateCatalogTable extends Migration
             $table->string('title');
             $table->string('isbn');
             $table->string('author');
+            $table->string('type');
+            $table->string('img_src');
 
             $table->timestamps();
         });

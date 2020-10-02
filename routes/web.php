@@ -23,3 +23,6 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/dashboard', function () {
 Route::middleware(['auth:sanctum', 'verified'])->get('/catalog', function () {
     return view('catalog');
 })->name('catalog');
+Route::middleware(['auth:sanctum', 'verified'])->get('/catalog', function () {
+    return view('catalog');
+})->name('catalog');
