@@ -20,21 +20,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d4ef61c-7dde-4310-8181-17fb22b6d126" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/Catalog.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Livewire/Catalog.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/SearchArticle.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/SearchBook.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/SearchMagazine.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Livewire/SearchMedia.php" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/livewire/catalog.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/catalog.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/livewire/search-article.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/livewire/search-book.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/livewire/search-magazine.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/livewire/search-media.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/search-article.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/search-book.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/search-magazine.blade.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/search-media.blade.php" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,7 +201,7 @@
       <workItem from="1601640486168" duration="6576000" />
       <workItem from="1601649211175" duration="488000" />
       <workItem from="1601658701515" duration="5842000" />
-      <workItem from="1601670386405" duration="607000" />
+      <workItem from="1601670386405" duration="861000" />
     </task>
     <servers />
   </component>
@@ -262,6 +248,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="192" y="14" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1601670463099" />
+    <state x="283" y="102" key="Vcs.Push.Dialog.v2" timestamp="1601671170675">
+      <screen x="0" y="0" width="1366" height="738" />
+    </state>
+    <state x="283" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1601671170675" />
     <state x="354" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1601667051573">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
