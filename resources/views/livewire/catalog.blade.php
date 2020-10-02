@@ -13,22 +13,26 @@
         <div class="col-9">
             <div class="tab-content" id="v-pills-tabContent">
                 <div class="tab-pane fade show active" id="v-pills-home" role="tabpanel" aria-labelledby="v-pills-home-tab">
-                    <legend>Wyszukaj po tytule</legend>
-                    <form method="GET" action="/search-book?q=title" >
-                        @csrf
-                    <input type="search" class="form-input" name="title" id="search-book-title"/>
-                    <button class="btn btn-sm btn-outline-dark" type="submit">Szukaj</button>
-                </form>
-                    <legend>Wyszukaj po ISBN</legend>
-                    <form action="/results?q=book-isbn" method="post">
-                        <input type="search" class="form-input" name="search-book-title" id="search-book-isbn"/>
-                        <button class="btn btn-sm btn-outline-dark" type="submit">Szukaj</button>
-                    </form>
-                    <legend>Wyszukaj po autorze</legend>
-                    <form action="/results?q=book-author" method="post">
-                        <input type="search" class="form-input" name="search-book-title" id="search-book-author"/>
-                        <button class="btn btn-sm btn-outline-dark" type="submit">Szukaj</button>
-                    </form>
+                    <table class="table table-sm">
+                        <thead>
+                        <th>Tytuł</th>
+                        <th>Autor</th>
+                        <th>ISBN</th>
+                        <th>Zdjęcie</th>
+                        <th>Szczegóły</th>
+                        </thead>
+                        <tbody>
+                            @foreach($book as $b)
+                        <tr>
+                            <td>{{$b->title}}</td>
+                            <td>{{$b->author}}</td>
+                            <td>{{$b->isbn}}</td>
+                            <td>{{$b->img_src}}</td>
+                            <td>5</td>
+                        </tr>
+                            @endforeach
+                        </tbody>
+                    </table>
                 </div>
                 <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
                     <legend>Wyszukaj po tytule</legend>
