@@ -20,24 +20,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4d4ef61c-7dde-4310-8181-17fb22b6d126" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Livewire/SearchArticle.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Livewire/SearchBook.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Livewire/SearchMagazine.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/app/Http/Livewire/SearchMedia.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/livewire/search-article.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/livewire/search-book.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/livewire/search-magazine.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/livewire/search-media.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.env.example" beforeDir="false" afterPath="$PROJECT_DIR$/.env.example" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/biblioteka.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/biblioteka.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Providers/AppServiceProvider.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/database/migrations/2020_10_02_144029_create_catalog_table.php" beforeDir="false" afterPath="$PROJECT_DIR$/database/migrations/2020_10_02_144029_create_catalog_table.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/search-article.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/search-article.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/search-book.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/search-book.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/search-magazine.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/search-magazine.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/search-media.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/search-media.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -216,7 +203,7 @@
       <workItem from="1601634019532" duration="29000" />
       <workItem from="1601640486168" duration="6576000" />
       <workItem from="1601649211175" duration="488000" />
-      <workItem from="1601658701515" duration="2643000" />
+      <workItem from="1601658701515" duration="2928000" />
     </task>
     <servers />
   </component>
