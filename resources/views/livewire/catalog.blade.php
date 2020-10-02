@@ -28,7 +28,7 @@
                             <td>{{$b->author}}</td>
                             <td>{{$b->isbn}}</td>
                             <td>{{$b->img_src}}</td>
-                            <td><a href="#" class="btn btn-sm btn-info">Szczegóły</a> </td>
+                            <td><a href="#" class="btn btn-sm btn-info">Zarezerwuj</a> </td>
                         </tr>
                             @endforeach
                         </tbody>
