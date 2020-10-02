@@ -26,3 +26,6 @@ Route::middleware(['auth:sanctum', 'verified'])->get('/catalog', function () {
 Route::middleware(['auth:sanctum', 'verified'])->get('/catalog', function () {
     return view('catalog');
 })->name('catalog');
+Route::middleware(['auth:sanctum', 'verified'])->get('/search-book', function () {
+    return view('/search-book');
+})->name('search-book');
