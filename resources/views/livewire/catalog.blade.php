@@ -35,21 +35,26 @@
                     </table>
                 </div>
                 <div class="tab-pane fade" id="v-pills-profile" role="tabpanel" aria-labelledby="v-pills-profile-tab">
-                    <legend>Wyszukaj po tytule</legend>
-                    <form action="/results?q=article-title" method="post">
-                        <input type="search" class="form-input" name="search-article-title" id="search-article-title"/>
-                        <button class="btn btn-sm btn-outline-dark" type="submit">Szukaj</button>
-                    </form>
-                    <legend>Wyszukaj po ISBN</legend>
-                    <form action="/results?q=article-isbn" method="post">
-                        <input type="search" class="form-input" name="search-article-isbn" id="search-article-isbn"/>
-                        <button class="btn btn-sm btn-outline-dark" type="submit">Szukaj</button>
-                    </form>
-                    <legend>Wyszukaj po autorze</legend>
-                    <form action="/results?q=article-author" method="post">
-                        <input type="search" class="form-input" name="search-article-author" id="search-article-author"/>
-                        <button class="btn btn-sm btn-outline-dark" type="submit">Szukaj</button>
-                    </form>
+                    <table class="table table-sm">
+                        <thead>
+                        <th>Tytuł</th>
+                        <th>Autor</th>
+                        <th>ISBN</th>
+                        <th>Zdjęcie</th>
+                        <th>Szczegóły</th>
+                        </thead>
+                        <tbody>
+                        @foreach($article as $a)
+                            <tr>
+                                <td>{{$a->title}}</td>
+                                <td>{{$a->author}}</td>
+                                <td>{{$a->isbn}}</td>
+                                <td>{{$a->img_src}}</td>
+                                <td><a href="#" class="btn btn-sm btn-info">Zarezerwuj</a> </td>
+                            </tr>
+                        @endforeach
+                        </tbody>
+                    </table>
                 </div>
                 <div class="tab-pane fade" id="v-pills-messages" role="tabpanel" aria-labelledby="v-pills-messages-tab">
                     <legend>Wyszukaj po tytule</legend>
