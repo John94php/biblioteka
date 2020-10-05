@@ -1,3 +1,15 @@
+If you want to use this
+1) download source as ZIP
+2) create database
+3) <code>composer update</code>
+4) <code>php artisan migrate</code>
+<p>should work ;) </p>
+
+
+
+
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400"></a></p>
 
 <p align="center">
