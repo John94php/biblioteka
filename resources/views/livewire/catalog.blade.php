@@ -1,6 +1,5 @@
 <div>
 
-
     <div class="row">
         <div class="col-3">
             <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
@@ -19,6 +18,7 @@
                         <th>Autor</th>
                         <th>ISBN</th>
                         <th>Zdjęcie</th>
+                        <th>Ilość szt.</th>
                         <th>Szczegóły</th>
                         </thead>
                         <tbody>
@@ -28,8 +28,47 @@
                             <td>{{$b->author}}</td>
                             <td>{{$b->isbn}}</td>
                             <td>{{$b->img_src}}</td>
-                            <td><a href="#" class="btn btn-sm btn-info">Zarezerwuj</a> </td>
+                            <td>{{$b->stock}}</td>
+                            <td>
+                                @if($b->stock > 0 )
+                                    <button type="button" class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#show{{$b->id}}">
+                                        Podejrzyj
+
+                                    </button>
+                                    <a href="#" class="btn btn-sm btn-outline-success">Rezerwacja</a>
+                                    @elseif($b->stock = 0)
+                                    <button type="button" class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#show{{$b->id}}">
+                                        Podejrzyj
+                                        </button>
+                                @endif
+                            </td>
                         </tr>
+
+
+
+                        <div class="modal fade" id="show{{$b->id}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            {{ var_dump($b->id) }}
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Podgląd</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="{{$b->img_src}}" alt="Obrazek"/>
+                                        <p>{{$b->title}}</p>
+                                        <h3>{{$b->author}}</h3>
+                                        <i>{{$b->isbn}}</i>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
                             @endforeach
                         </tbody>
                     </table>
@@ -41,6 +80,7 @@
                         <th>Autor</th>
                         <th>ISBN</th>
                         <th>Zdjęcie</th>
+                        <th>Ilość szt. </th>
                         <th>Szczegóły</th>
                         </thead>
                         <tbody>
@@ -50,7 +90,12 @@
                                 <td>{{$a->author}}</td>
                                 <td>{{$a->isbn}}</td>
                                 <td>{{$a->img_src}}</td>
+                                <td>{{$a->stock}}</td>
+                                @if($a->stock > 0)
                                 <td><a href="#" class="btn btn-sm btn-info">Zarezerwuj</a> </td>
+                                @else
+                                <td class="bg-danger">Brak książek na stanie</td>
+                                    @endif
                             </tr>
                         @endforeach
                         </tbody>
@@ -93,5 +138,9 @@
             </div>
         </div>
     </div>
+
+
+
+
 </div>
 

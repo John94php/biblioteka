@@ -19,7 +19,34 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d4ef61c-7dde-4310-8181-17fb22b6d126" name="Default Changelist" comment="">
+    <list default="true" id="4d4ef61c-7dde-4310-8181-17fb22b6d126" name="Default Changelist" comment="Prace nad katalogiem">
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/jetstream/components/action-message.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/jetstream/components/action-section.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/jetstream/components/application-logo.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/jetstream/components/application-mark.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/jetstream/components/authentication-card-logo.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/jetstream/components/authentication-card.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/jetstream/components/button.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/jetstream/components/confirmation-modal.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/jetstream/components/confirms-password.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/jetstream/components/danger-button.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/jetstream/components/dialog-modal.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/jetstream/components/dropdown-link.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/jetstream/components/dropdown.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/jetstream/components/form-section.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/jetstream/components/input-error.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/jetstream/components/input.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/jetstream/components/label.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/jetstream/components/modal.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/jetstream/components/nav-link.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/jetstream/components/responsive-nav-link.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/jetstream/components/secondary-button.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/jetstream/components/section-border.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/jetstream/components/section-title.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/jetstream/components/switchable-team.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/jetstream/components/validation-errors.blade.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/resources/views/vendor/jetstream/components/welcome.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/livewire/catalog.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/catalog.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -201,8 +228,34 @@
       <workItem from="1601640486168" duration="6576000" />
       <workItem from="1601649211175" duration="488000" />
       <workItem from="1601658701515" duration="5842000" />
-      <workItem from="1601670386405" duration="861000" />
+      <workItem from="1601670386405" duration="1690000" />
+      <workItem from="1601748583979" duration="1003000" />
+      <workItem from="1601806518969" duration="3337000" />
+      <workItem from="1601832166486" duration="2779000" />
+      <workItem from="1601880714973" duration="535000" />
     </task>
+    <task id="LOCAL-00001" summary="Dodanie przycisku &quot;Szczegóły&quot;">
+      <created>1601671286197</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601671286197</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Zmiana treści przycisku na &quot;Zarezerwuj&quot;">
+      <created>1601671366218</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601671366218</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Prace nad katalogiem">
+      <created>1601671670322</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1601671670322</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -222,6 +275,10 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Dodanie przycisku &quot;Szczegóły&quot;" />
+    <MESSAGE value="Zmiana treści przycisku na &quot;Zarezerwuj&quot;" />
+    <MESSAGE value="Prace nad katalogiem" />
+    <option name="LAST_COMMIT_MESSAGE" value="Prace nad katalogiem" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1306" height="179" key="GridCell.Tab.0.bottom" timestamp="1601670332661">
@@ -248,13 +305,13 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="192" y="14" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1601670463099" />
-    <state x="283" y="102" key="Vcs.Push.Dialog.v2" timestamp="1601671170675">
+    <state x="283" y="102" key="Vcs.Push.Dialog.v2" timestamp="1601671674148">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="283" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1601671170675" />
-    <state x="354" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1601667051573">
+    <state x="283" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1601671674148" />
+    <state x="354" y="59" width="672" height="678" key="search.everywhere.popup" timestamp="1601748847942">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="354" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1601667051573" />
+    <state x="354" y="59" width="672" height="678" key="search.everywhere.popup/0.0.1366.738@0.0.1366.738" timestamp="1601748847942" />
   </component>
 </project>
