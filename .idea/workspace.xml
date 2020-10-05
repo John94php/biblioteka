@@ -19,8 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4d4ef61c-7dde-4310-8181-17fb22b6d126" name="Default Changelist" comment="Dodanie nowych plików + modyfikacja katalogu">
+    <list default="true" id="4d4ef61c-7dde-4310-8181-17fb22b6d126" name="Default Changelist" comment="Obrazek dla przykładowego rekordu w bazie">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/livewire/catalog.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/livewire/catalog.blade.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -206,7 +207,7 @@
       <workItem from="1601806518969" duration="3337000" />
       <workItem from="1601832166486" duration="2779000" />
       <workItem from="1601880714973" duration="535000" />
-      <workItem from="1601881583946" duration="1137000" />
+      <workItem from="1601881583946" duration="5409000" />
     </task>
     <task id="LOCAL-00001" summary="Dodanie przycisku &quot;Szczegóły&quot;">
       <created>1601671286197</created>
@@ -236,7 +237,14 @@
       <option name="project" value="LOCAL" />
       <updated>1601881771819</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Obrazek dla przykładowego rekordu w bazie">
+      <created>1601883185689</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1601883185689</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,7 +268,8 @@
     <MESSAGE value="Zmiana treści przycisku na &quot;Zarezerwuj&quot;" />
     <MESSAGE value="Prace nad katalogiem" />
     <MESSAGE value="Dodanie nowych plików + modyfikacja katalogu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Dodanie nowych plików + modyfikacja katalogu" />
+    <MESSAGE value="Obrazek dla przykładowego rekordu w bazie" />
+    <option name="LAST_COMMIT_MESSAGE" value="Obrazek dla przykładowego rekordu w bazie" />
   </component>
   <component name="WindowStateProjectService">
     <state width="1306" height="179" key="GridCell.Tab.0.bottom" timestamp="1601670332661">
@@ -287,10 +296,10 @@
       <screen x="0" y="0" width="1366" height="738" />
     </state>
     <state x="192" y="14" key="SettingsEditor/0.0.1366.738@0.0.1366.738" timestamp="1601670463099" />
-    <state x="283" y="102" key="Vcs.Push.Dialog.v2" timestamp="1601881794319">
+    <state x="283" y="102" key="Vcs.Push.Dialog.v2" timestamp="1601883188342">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state x="283" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1601881794319" />
+    <state x="283" y="102" key="Vcs.Push.Dialog.v2/0.0.1366.738@0.0.1366.738" timestamp="1601883188342" />
     <state x="508" y="283" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1601882102650">
       <screen x="0" y="0" width="1366" height="738" />
     </state>

@@ -17,7 +17,6 @@
                         <th>Tytuł</th>
                         <th>Autor</th>
                         <th>ISBN</th>
-                        <th>Zdjęcie</th>
                         <th>Ilość szt.</th>
                         <th>Szczegóły</th>
                         </thead>
@@ -27,7 +26,7 @@
                             <td>{{$b->title}}</td>
                             <td>{{$b->author}}</td>
                             <td>{{$b->isbn}}</td>
-                            <td>{{$b->img_src}}</td>
+
                             <td>{{$b->stock}}</td>
                             <td>
                                 @if($b->stock > 0 )
@@ -35,7 +34,9 @@
                                         Podejrzyj
 
                                     </button>
-                                    <a href="#" class="btn btn-sm btn-outline-success">Rezerwacja</a>
+                                    <button type="button" class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#order{{$b->id}}">
+                                        Zarezerwuj
+                                    </button>
                                     @elseif($b->stock = 0)
                                     <button type="button" class="btn btn-sm btn-outline-primary" data-toggle="modal" data-target="#show{{$b->id}}">
                                         Podejrzyj
@@ -43,11 +44,53 @@
                                 @endif
                             </td>
                         </tr>
+                        <div class="modal fade" id="order{{$b->id}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+                            <div class="modal-dialog" role="document">
+                                <div class="modal-content">
+                                    <div class="modal-header">
+                                        <h5 class="modal-title" id="exampleModalLabel">Złóż zamówienie</h5>
+                                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                            <span aria-hidden="true">&times;</span>
+                                        </button>
+                                    </div>
+                                    <div class="modal-body">
+                                        <img src="img/{{$b->img_src}}" class="" alt="Obrazek"/>
+                                        <legend>Tytuł</legend> <p>{{$b->title}}</p>
+                                        <legend>Autor</legend></legend><h3>{{$b->author}}</h3>
+                                        <legend>ISBN</legend><i>{{$b->isbn}}</i>
+                                         <div class="card">
+                                             <legend>Imię i nazwisko: </legend>
+                                             <input type="text" name="fname" value="{{Auth::user()->name}}" readonly/>
+                                            <legend>Ilość szt. </legend>
+                                            <input type="text" name="stock" value="1" readonly/>
+                                             <legend>Okres wypożyczenia</legend>
+                                             <select name="">
+                                                 <option>...</option>
+                                                 <option value="1">2 dni</option>
+                                                 <option value="2">7 dni</option>
+                                                 <option value="3">14 dni</option>
+                                                 <option value="4">30 dni</option>
+                                             </select>
+                                             <legend>Określ formę odbioru zamówienia</legend>
+                                           <select name="">
+                                               <option>...</option>
+                                               <option value="1">Kurier</option>
+                                               <option value="2"> Paczkomat</option>
+                                               <option value="3">Osobiście</option>
+                                           </select>
+                                         </div>
+                                    </div>
+                                    <div class="modal-footer">
+                                        <button type="submit" class="btn btn-primary">Zapisz</button>
+                                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
 
-
+// Modal do poglądu
                         <div class="modal fade" id="show{{$b->id}}" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-                            {{ var_dump($b->id) }}
                             <div class="modal-dialog" role="document">
                                 <div class="modal-content">
                                     <div class="modal-header">
@@ -57,10 +100,10 @@
                                         </button>
                                     </div>
                                     <div class="modal-body">
-                                        <img src="{{$b->img_src}}" alt="Obrazek"/>
-                                        <p>{{$b->title}}</p>
-                                        <h3>{{$b->author}}</h3>
-                                        <i>{{$b->isbn}}</i>
+                                        <img src="img/{{$b->img_src}}" class="" alt="Obrazek"/>
+                                        <legend>Tytuł</legend> <p>{{$b->title}}</p>
+                                        <legend>Autor</legend></legend><h3>{{$b->author}}</h3>
+                                        <legend>ISBN</legend><i>{{$b->isbn}}</i>
                                     </div>
                                     <div class="modal-footer">
                                         <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
